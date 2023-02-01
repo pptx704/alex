@@ -45,7 +45,7 @@ def create_menu():
     return pystray.Menu(
         pystray.MenuItem('Quit without saving', lambda: icon.stop()),
         pystray.MenuItem('Reset', reset),
-        pystray.MenuItem('Stop' if state['started'] else 'Start', log),
+        pystray.MenuItem('Check Out' if state['started'] else 'Check In', log),
         pystray.MenuItem('Quit', quit),
     )
 
