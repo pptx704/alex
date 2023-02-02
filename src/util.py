@@ -2,7 +2,7 @@ from notion_client import Client
 from datetime import datetime
 import json
 
-with open("secrets.json", "r") as f:
+with open("./secrets.json", "r") as f:
     secrets = json.load(f)
 
 client = Client(auth=secrets.get("token"))
