@@ -21,3 +21,4 @@ There are 4 options in the toolbar menu-
 # Todo
 - [ ] Pop-up for getting the work title when checking out
 - [ ] Add option for putting work summary
+- [ ] Add analytics of app usage
